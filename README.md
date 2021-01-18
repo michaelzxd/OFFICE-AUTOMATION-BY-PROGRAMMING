@@ -26,7 +26,7 @@ Pyautogui相当于一个虚拟机械手，可实现鼠标移动、点击和键�
 https://github.com/michaelzxd/AutoNC-pyautogui
 
 
-三、学习资料推荐
+三、学习资料推荐 
 （一）学习VB推荐书籍——《别怕，EXCEL VBA其实很简单》
 （二）学习Python推荐书籍——《自学是门手艺》，作者：李笑来，网上公开版：
 https://github.com/selfteaching/the-craft-of-selfteaching/blob/master/README.md
