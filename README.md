@@ -27,7 +27,10 @@ https://github.com/michaelzxd/AutoNC-pyautogui
 
 
 三、学习资料推荐 
+
 （一）学习VB推荐书籍——《别怕，EXCEL VBA其实很简单》
+
 （二）学习Python推荐书籍——《自学是门手艺》，作者：李笑来，网上公开版：
 https://github.com/selfteaching/the-craft-of-selfteaching/blob/master/README.md
+
 （三）搜索引擎。关于编程95%的问题都可以通过搜索引擎找到答案。
