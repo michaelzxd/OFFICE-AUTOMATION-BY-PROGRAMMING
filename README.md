@@ -12,9 +12,13 @@
 
 （三）VB语言实现Excel到Word的数据转移
 以往根据Excel里的数写一个Word文档，都是从Excel逐一复制粘贴到Word，如果数据很多且分散在不同工作薄，则很容易出错。VB是Office内嵌语言，对Excel和Word均有效用，难点在于如何在Excel中启动Word程序。笔者做了大量查询和验证，终于找到正确且稳定的方法，通过以下三行代码即可解决问题。
+    
     Set doc = CreateObject("Word.application")
+    
     Set wd = doc.Documents.Add
+    
     doc.Visible = True
+ 
  有了这三行代码，剩下的就是取值写入的问题了。笔者写的程序通过Excel自动生成请款签报，运行结果稳定、迅速、无差错，获得同事们的高度好评。
 
 
@@ -23,6 +27,7 @@
 https://pyautogui.readthedocs.io/en/latest/
 
 Pyautogui相当于一个虚拟机械手，可实现鼠标移动、点击和键盘输入的所有操作，基本原理是通过图片定位鼠标位置，再进行点击或键盘输入。当时应用中遇到的最大困难是，屏幕分辨率即使有很细微的变化，图片定位也会失败，网络上有很多人也遇到同样的问题但并没有找到解决办法，程序编写一度遇到困境。后来反复研读模块文档，终于发现，套用center函数和LocateOnScreen函数自定义一个新函数即可调用置信区间参数来巧妙解决这个问题，一切迎刃而解，后续的编写也水到渠成。该程序代码接近1000行，实际应用时效率奇高，代码如下：
+
 https://github.com/michaelzxd/AutoNC-pyautogui
 
 
